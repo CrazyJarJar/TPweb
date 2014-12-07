@@ -11,6 +11,31 @@
 
 @media screen and (max-width: 480px)
 {
+	nav.browse{
+		display: none;
+	}
+	header .logo-search {
+    float: left;
+    width: 15em;
+}
+header .user {
+    display: none;
+}
+header .logo-search img {
+    float: center;
+}
+	main header aside{
+		float: center;
+	}
+	main header .name {
+    float: center;
+}
+main .station {
+    float: center;
+}
+main header .links {
+    display:none;
+}
     nav
     {
         display: block;
@@ -18,8 +43,11 @@
     }
 }
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 600px)
 {
+	nav.browse{
+		display: none;
+	}
     nav
     {
         display: block;
